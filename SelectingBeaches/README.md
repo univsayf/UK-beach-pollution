@@ -6,4 +6,4 @@ File description:
 
 **Selecting_beaches.ipynb** --> Codes in jupyter notebook for selecting UK beaches.
 
-**Selecting_beaches.pdf** --> Sames codes above above in the pdf format.
+**BeachIDs.csv** --> This is the output of the codes in *Selecting_beaches.ipynb*.
