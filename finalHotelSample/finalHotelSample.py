@@ -21,6 +21,9 @@ del hotelSample['Unnamed: 0']
 # Selecting hotels for the 225 pre-identified beaches from the beachSample data above
 hotels30 = hotelSample[hotelSample['BeachID'].isin(beachSample['BeachID'])]
 
+# saving hotels30 in a csv file
+hotels30.to_csv('finalHotelSample.csv')
+
 # hotels30 contains 1017hotels
 len(hotels30)
 
